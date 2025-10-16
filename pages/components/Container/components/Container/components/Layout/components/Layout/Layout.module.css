@@ -1,0 +1,4 @@
+.main {
+  /* Esto asegura que el pie de página no suba en páginas con poco contenido */
+  min-height: 75vh;
+}
