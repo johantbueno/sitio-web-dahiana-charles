@@ -1,0 +1,36 @@
+.header {
+  background-color: var(--blanco);
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.headerInner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--negro);
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.nav a {
+  font-weight: 500;
+  color: var(--gris-texto);
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.nav a:hover {
+  color: var(--azul-principal);
+  text-decoration: none;
+}
